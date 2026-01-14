@@ -27,10 +27,8 @@
 #       - uses: docker/login-action@v3
 #         with:
 #           registry: ghcr.io
-#           #username: ${{ github.actor }}
-#           #password: ${{ secrets.GITHUB_TOKEN }}
-#           username: newbnewb2
-#           password: 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
+#           username: ${{ github.actor }}
+#           password: ${{ secrets.GITHUB_TOKEN }}
 #       - name: Run Trivy vulnerability scanner in fs mode
 #         uses: aquasecurity/trivy-action@0.16.0
 #         with:
