@@ -54,8 +54,8 @@ on:
       - 'v*'
 
 env:
-  AWS_REGION: ap-northeast-2   # 예시: 서울 리전
-  ECR_REGISTRY: <AWS_ACCOUNT_ID>.dkr.ecr.ap-northeast-2.amazonaws.com
+  AWS_REGION: ap-northeast-2
+  ECR_REGISTRY: 695595718481.dkr.ecr.ap-northeast-2.amazonaws.com
   ECR_REPOSITORY: yhy-back
 
 jobs:
